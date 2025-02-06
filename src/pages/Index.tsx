@@ -29,7 +29,7 @@ const Index = () => {
           </div>
 
           {/* Logo */}
-          <div className="w-full max-w-xl mx-auto mb-12 animate-fade-in">
+          <div className="w-full max-w-xl mx-auto mb-6 animate-fade-in"> {/* Reduced mb-12 to mb-6 */}
             <img
               src="/lovable-uploads/f42d6934-ef01-4318-88b8-93826b11a153.png"
               alt="Dreamscape Logo"
@@ -37,12 +37,12 @@ const Index = () => {
             />
           </div>
 
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-center animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 text-center animate-fade-in"> {/* Reduced mb-6 to mb-4 */}
             Where Visions
             <span className="bg-gradient-to-r from-dreamscape-purple to-dreamscape-teal bg-clip-text text-transparent"> Take Flight</span>
           </h1>
           
-          <p className="text-lg md:text-xl text-white/80 mb-12 max-w-2xl text-center animate-fade-in">
+          <p className="text-lg md:text-xl text-white/80 mb-8 max-w-2xl text-center animate-fade-in"> {/* Reduced mb-12 to mb-8 */}
             Transform your dreams into reality with our innovative vision board platform.
             Combine creativity with productivity to achieve your goals.
           </p>
