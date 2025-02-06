@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
-import { PlusCircle } from "lucide-react";
+import { PlusCircle, ListTodo as ListTodoIcon, Lightbulb as LightbulbIcon } from "lucide-react";
 
 const Index = () => {
   return (
@@ -54,12 +54,12 @@ const features = [
     description: "Build beautiful vision boards that inspire and motivate you every day."
   },
   {
-    icon: ListTodo,
+    icon: ListTodoIcon,
     title: "Track Progress",
     description: "Turn your dreams into actionable tasks and track your journey."
   },
   {
-    icon: Lightbulb,
+    icon: LightbulbIcon,
     title: "Get Insights",
     description: "Receive personalized insights and suggestions to achieve your goals."
   }
